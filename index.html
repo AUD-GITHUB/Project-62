@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#gridview">Grid View</a></li>
+            <li class="links"><a href="#slideview">Slide View</a></li>
+        </ul>
+    </center>
+    <div class="container">
+        <section id="home">
+            <h1>Home</h1>
+            <hr id="br">
+            <img id="gif" src="flowers.gif">
+        </section>
+        <br>
+        <hr id="sectionhr"><br>
+        <section id="gridview">
+            <h1>Grid View</h1>
+            <hr id="br">
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img src="blue.jpg">
+                <img src="Pink%20tulip.jpg">
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                <img src="purple.jpg">
+                <img src="Orange.png">
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                <img src="Red%20rose.jpg">
+                <img src="violet.jpg">
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                <img src="White.jpg">
+                <img src="yellow.jpg">
+                <br>
+                <br>
+            </div>
+        </section>
+        <br>
+        <hr id="sectionhr"><br>
+        <section id="slideview">
+            <h1>Slide View</h1>
+            <hr id="br">
+            <br>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img class="img-responsive" src="Red%20rose.jpg" alt="Red">
+                            <div class="carousel-content">
+                                <h3>Red Rose</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <div class="carousel-content">
+                                <img class="img-responsive" src="blue.jpg" alt="Blue">
+                                <h3>Blue Hydrangea</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="Pink%20tulip.jpg" alt="Pink">
+                            <div class="carousel-content">
+                                <h3>Pink Tulip</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <div class="carousel-content">
+                                <img class="img-responsive" src="Orange.png" alt="Orange">
+                                <h3>Orange Tulip</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <div class="carousel-content">
+                                <img class="img-responsive" src="purple.jpg" alt="Purple">
+                                <h3>Purple Crocuses</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="White.jpg" alt="White">
+                            <div class="carousel-content">
+                                <h3>White Gardenia</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <div class="carousel-content">
+                                <img class="img-responsive" src="violet.jpg" alt="Violet">
+                                <h3>Violet Clematis</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <div class="carousel-content">
+                                <img class="img-responsive" src="yellow.jpg" alt="Yellow">
+                                <h3>Yellow Sunflower</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </section>
+    </div>
+</body></html>

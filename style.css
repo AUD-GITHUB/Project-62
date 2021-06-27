@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#gridview {
+    text-align: center;
+    width: 100%;
+}
+
+#slideview {
+    text-align: center;
+    width: 100%;
+}
+
+#gif {
+    width: 800px;
+}
+
+.menu {
+    position: fixed;
+    height: 30px;
+    top: 0px;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 10;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+.links {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.row {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+#gridview img {
+    width: 250px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#br {
+    height: 5px;
+    color: black;
+    background-color: black;
+    width: 200px;
+}
+
+#sectionhr {
+    width: 1000px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-family:
+}
+
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: white;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
